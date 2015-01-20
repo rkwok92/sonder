@@ -1,0 +1,78 @@
+/*------------------------- variables ------------------------------
+
+font-body: 'Poiret One', cursive;
+font-body: 'Raleway';
+font-family: 'Architects Daugher';
+font-family: 'Alegreya Sans', sans-serif;
+
+dark-gray: #CACACA;
+medium-gray: #E8E8E8;
+light-gray: #F5F6F6;
+black: #000000;
+white: #FFFFFF;
+baby-blue: #469CE3
+orange: #F8A71A
+dark-blue: #00294A 
+
+*/
+
+/*------------------------- Body ------------------------------ */
+	html,
+	body {
+		margin:0;
+		padding:0;
+		font-family: 'Alegreya Sans', sans-serif;
+		color: #FFFFFF;
+		background-color:#469CE3; 	
+	}
+	.panel{
+		height:100vh;
+		width:100vw;
+		min-height: 700px;
+	}
+	.container{
+		width:80vw;
+		margin:auto;
+	}
+	
+/*------------------------- landing panel ------------------------------ */	
+	#landing{
+		background-color:#000000; 		
+		top:0;
+	}
+	#landing_content{
+		padding-top:15vh;
+	}
+	#logo{
+		font-family: 'Lato', sans-serif;
+		color: #F8A71A;
+		font-size:200%;
+		font-weight:100;
+	}
+	h1{
+		font-size:300%;
+	}
+	h3{
+		color:#CACACA;
+	}
+	
+/*------------------------- about panel ------------------------------ */
+	#about{
+		background-color:#F8A71A; 	
+	}
+	.third{
+		display:inline-block;
+		width:24vw;
+		height:300px;
+		margin-top:30vh;
+		padding:1vw;
+	}
+	p{
+		font-size:105%;
+	}
+	
+	
+	
+	
+	
+	
